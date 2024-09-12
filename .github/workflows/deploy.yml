@@ -2,7 +2,7 @@ name: Build and Deploy
 on:
     push:
         branches:
-            - master
+            - kevinYu09-patch-1
 jobs:
     build-and-deploy:
         runs-on: ubuntu-latest
@@ -26,6 +26,6 @@ jobs:
             - name: Deploy
               uses: JamesIves/github-pages-deploy-action@4.1.3
               with:
-                  BRANCH: gh-pages
+                  BRANCH: site-pages
                   FOLDER: docs/.vuepress/dist
                   ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
