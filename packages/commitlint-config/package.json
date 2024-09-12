@@ -1,0 +1,24 @@
+{
+  "name": "improve-code-commitlint-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Git规范",
+  "keywords": [
+    "improve-code",
+    "commit",
+    "lint"
+  ],
+  "author": "KevinYu",
+  "homepage": "https://github.com/kevinYu09/improve-code#readme",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinYu09/improve-code.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kevinYu09/improve-code/issues"
+  },
+  "dependencies": {
+    "conventional-changelog-conventionalcommits": "^4.5.0"
+  }
+}
