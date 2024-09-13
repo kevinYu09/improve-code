@@ -1,5 +1,5 @@
 {
-  "name": "improve-code-eslint-config",
+  "name": "eslint-config-improve-code",
   "version": "1.0.0",
   "main": "index.js",
   "description": "JavaScript TypeScript Node 规范",

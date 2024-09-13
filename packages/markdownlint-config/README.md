@@ -1,4 +1,4 @@
-# improve-code-markdownlint-config
+# markdownlint-config-improve-code
 
 > 文档 规范
 
@@ -9,7 +9,7 @@
 需要先行安装 [markdownlint](https://www.npmjs.com/package/markdownlint)：
 
 ```bash
-npm install improve-code-markdownlint-config markdownlint --save-dev
+npm install markdownlint-config-improve-code markdownlint --save-dev
 ```
 
 ## 使用
@@ -18,6 +18,6 @@ npm install improve-code-markdownlint-config markdownlint --save-dev
 
 ```json
 {
-	"extends": "improve-code-markdownlint-config"
+	"extends": "markdownlint-config-improve-code"
 }
 ```

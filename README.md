@@ -36,10 +36,10 @@
 
 | 规约                                                              | Lint 工具                                                  | npm 包                                                                                       |
 | ----------------------------------------------------------------- | ---------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| JavaScript 编码规范 <br/> TypeScript 编码规范 <br/> Node 编码规范 | [ESLint](https://eslint.org/)                              | [improve-code-eslint-config](https://www.npmjs.com/package/improve-code-eslint-config)             |
-| CSS 编码规范                                                      | [stylelint](https://stylelint.io/)                         | [improve-code-stylelint-config](https://www.npmjs.com/package/improve-code-stylelint-config)       |
-| Git 规范                                                          | [commitlint](https://commitlint.js.org/#/)                 | [improve-code-commitlint-config](https://www.npmjs.com/package/improve-code-commitlint-config)     |
-| 文档规范                                                          | [markdownlint](https://github.com/DavidAnson/markdownlint) | [improve-code-markdownlint-config](https://www.npmjs.com/package/improve-code-markdownlint-config) |
+| JavaScript 编码规范 <br/> TypeScript 编码规范 <br/> Node 编码规范 | [ESLint](https://eslint.org/)                              | [eslint-config-improve-code](https://www.npmjs.com/package/eslint-config-improve-code)             |
+| CSS 编码规范                                                      | [stylelint](https://stylelint.io/)                         | [stylelint-config-improve-code](https://www.npmjs.com/package/stylelint-config-improve-code)       |
+| Git 规范                                                          | [commitlint](https://commitlint.js.org/#/)                 | [commitlint-config-improve-code](https://www.npmjs.com/package/commitlint-config-improve-code)     |
+| 文档规范                                                          | [markdownlint](https://github.com/DavidAnson/markdownlint) | [markdownlint-config-improve-code](https://www.npmjs.com/package/markdownlint-config-improve-code) |
 
 <!-- [improve-code-cli](https://www.npmjs.com/package/improve-code-cli) 收敛屏蔽了上述依赖和配置细节，提供简单的 `CLI` 和 `Node.js API`，让项目能够一键接入、一键扫描、一键修复、一键升级，并为项目配置 git commit 卡口，降低项目接入规约的成本。
 

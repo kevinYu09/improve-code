@@ -1,5 +1,5 @@
 ---
-title: improve-code-stylelint-config
+title: stylelint-config-improve-code
 categories:
   - 工程规范
 tags:
@@ -9,7 +9,7 @@ author:
   link: https://github.com/kevinYu09/improve-code
 ---
 
-# improve-code-stylelint-config
+# stylelint-config-improve-code
 
 :::tip
 CSS 规范
@@ -22,7 +22,7 @@ CSS 规范
 需要先行安装 [stylelint](https://www.npmjs.com/package/stylelint) 和 [stylelint-scss](https://www.npmjs.com/package/stylelint-scss)：
 
 ```bash
-npm install improve-code-stylelint-config stylelint stylelint-scss --save-dev
+npm install stylelint-config-improve-code stylelint stylelint-scss --save-dev
 ```
 
 ## 使用
@@ -31,6 +31,6 @@ npm install improve-code-stylelint-config stylelint stylelint-scss --save-dev
 
 ```json
 {
-  "extends": "improve-code-stylelint-config"
+  "extends": "stylelint-config-improve-code"
 }
 ```

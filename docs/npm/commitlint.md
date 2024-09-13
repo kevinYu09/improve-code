@@ -1,5 +1,5 @@
 ---
-title: improve-code-commitlint-config
+title: commitlint-config-improve-code
 categories:
   - 工程规范
 tags:
@@ -9,7 +9,7 @@ author:
   link: https://github.com/kevinYu09/improve-code
 ---
 
-# improve-code-commitlint-config
+# commitlint-config-improve-code
 
 :::tip
 Git 规范
@@ -22,7 +22,7 @@ Git 规范
 使用时，需要安装 [@commitlint/cli](https://www.npmjs.com/package/@commitlint/cli)：
 
 ```bash
-npm install improve-code-commitlint-config @commitlint/cli --save-dev
+npm install commitlint-config-improve-code @commitlint/cli --save-dev
 ```
 
 ## 使用
@@ -31,7 +31,7 @@ npm install improve-code-commitlint-config @commitlint/cli --save-dev
 
 ```javascript
 module.exports = {
-  extends: ['improve-code-commitlint-config'],
+  extends: ['commitlint-config-improve-code'],
 };
 ```
 

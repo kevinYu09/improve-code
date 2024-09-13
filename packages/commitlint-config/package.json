@@ -1,5 +1,5 @@
 {
-  "name": "improve-code-commitlint-config",
+  "name": "commitlint-config-improve-code",
   "version": "1.0.0",
   "main": "index.js",
   "description": "Git规范",

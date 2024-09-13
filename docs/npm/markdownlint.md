@@ -1,5 +1,5 @@
 ---
-title: improve-code-markdownlint-config
+title: markdownlint-config-improve-code
 categories:
   - 工程规范
 tags:
@@ -9,7 +9,7 @@ author:
   link: https://github.com/kevinYu09/improve-code
 ---
 
-# improve-code-markdownlint-config
+# markdownlint-config-improve-code
 
 :::tip
 文档 规范
@@ -22,7 +22,7 @@ author:
 需要先行安装 [markdownlint](https://www.npmjs.com/package/markdownlint)：
 
 ```bash
-npm install improve-code-markdownlint-config markdownlint --save-dev
+npm install markdownlint-config-improve-code markdownlint --save-dev
 ```
 
 ## 使用
@@ -31,6 +31,6 @@ npm install improve-code-markdownlint-config markdownlint --save-dev
 
 ```json
 {
-  "extends": "improve-code-markdownlint-config"
+  "extends": "markdownlint-config-improve-code"
 }
 ```
