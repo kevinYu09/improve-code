@@ -67,7 +67,7 @@ pnpm run changelog
 
 ## :email: 联系
 
-- **前端编码规范工程化** <https://kevinYu09.github.io/improve-code/>
+- **前端编码规范工程化** <https://kevinyu09.github.io/improve-code/>
 - **GitHub**: <https://github.com/kevinYu09/improve-code>
 
 </br>
