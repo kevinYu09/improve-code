@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-improve-code",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "CSS规范",
   "main": "index.js",
   "keywords": [
@@ -30,5 +30,5 @@
   "bugs": {
     "url": "https://github.com/kevinYu09/improve-code/issues"
   },
-  "gitHead": "26b383709b1c3e9614d495f7cf44ebd4294a3c59"
+  "gitHead": "c3fa3cb28cf53b8a1dd2036668809eed54599ee8"
 }
