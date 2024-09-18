@@ -1,7 +1,7 @@
 {
   "name": "improve-code",
   "private":true,
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "我在 GitHub 上的第一个仓库-前端工程化规范",
   "scripts": {
     "preinstall": "npx only-allow pnpm",

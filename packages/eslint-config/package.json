@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-improve-code",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.js",
   "description": "JavaScript TypeScript Node 规范",
   "keywords": [
@@ -45,5 +45,5 @@
     "typescript": "^4.1.2",
     "vue-eslint-parser": "^7.3.0"
   },
-  "gitHead": "c3fa3cb28cf53b8a1dd2036668809eed54599ee8"
+  "gitHead": "4633c38e29e1e211ecd1a2f11026d9602b9d1cb1"
 }
