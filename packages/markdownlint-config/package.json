@@ -1,6 +1,6 @@
 {
   "name": "markdownlint-config-improve-code",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.json",
   "description": "文档规范",
   "keywords": [
@@ -20,5 +20,6 @@
   },
   "peerDependencies": {
     "markdownlint": "^0.28.1"
-  }
+  },
+  "gitHead": "26b383709b1c3e9614d495f7cf44ebd4294a3c59"
 }
