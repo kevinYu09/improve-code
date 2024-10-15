@@ -39,6 +39,10 @@ export default defineConfig4CustomTheme({
           { text: 'markdownlint-config-improve-code', link: '/npm/markdownlint.md' },
         ],
       },
+      {
+        text: '脚手架',
+        items: [{ text: 'improve-code-lint', link: '/cli/improve-code-lint.md' }],
+      },
     ],
     sidebar: [
       {
@@ -91,6 +95,10 @@ export default defineConfig4CustomTheme({
           { title: 'commitlint-config-improve-code', path: '/npm/commitlint.md' },
           { title: 'markdownlint-config-improve-code', path: '/npm/markdownlint.md' },
         ],
+      },
+      {
+        title: '脚手架',
+        children: [{ title: 'improve-code-lint', path: '/cli/improve-code-lint.md' }],
       },
     ],
     logo: '/img/logo.png',

@@ -1,6 +1,17 @@
+---
+title: improve-code-lint
+categories:
+  - 脚手架规范
+tags:
+  - 脚手架规范
+author:
+  name: KevinYu
+  link: https://github.com/kevinYu09/improve-code
+---
+
 # improve-code-lint
 
-`improve-code-lint` 是[前端编码规范工程化](https://kevinYu09.github.io/improve-code/)的配套 Lint 工具，可以为项目一键接入规范、一键扫描和修复规范问题，保障项目的编码规范和代码质量。
+`improve-code-lint` 是[前端编码规范工程化](https://kevinyu09.github.io/improve-code/)的配套 Lint 工具，可以为项目一键接入规范、一键扫描和修复规范问题，保障项目的编码规范和代码质量。
 
 ## 背景
 
@@ -9,7 +20,7 @@
 | 规范                                                              | Lint 工具                                                  | npm 包                                                                                 |
 | ----------------------------------------------------------------- | ---------------------------------------------------------- | -------------------------------------------------------------------------------------- |
 | JavaScript 编码规范 <br/> TypeScript 编码规范 <br/> Node 编码规范 | [ESLint](https://eslint.org/)                              | [eslint-config-improve-code](https://www.npmjs.com/package/eslint-config-improve-code)             |
-| CSS 编码规范                                                      | [stylelint](https://stylelint.io/)                         | [stylelint-config-improve-code](https://www.npmjs.com/package/stylelint-config-improve-code) |
+| CSS 编码规范                                                      | [stylelint](https://stylelint.io/)                         | [stylelint-config-improve-code](https://www.npmjs.com/package/stylelint-config-improve-code)       |
 | Git 规范                                                          | [commitlint](https://commitlint.js.org/#/)                 | [commitlint-config-improve-code](https://www.npmjs.com/package/commitlint-config-improve-code)     |
 | 文档规范                                                          | [markdownlint](https://github.com/DavidAnson/markdownlint) | [markdownlint-config-improve-code](https://www.npmjs.com/package/markdownlint-config-improve-code) |
 
@@ -110,7 +121,6 @@ npm install improve-code-lint --save
 
 ```js
 (await improve-code) -
-  fe -
   lint.init({
     eslintType: 'react',
     enableESLint: true,
