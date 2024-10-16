@@ -195,18 +195,6 @@ npm i -D eslint-config-improve-code @typescript-eslint/parser @typescript-eslint
 }
 ```
 
-如果需要无障碍能力：
-
-```shell
-npm i -D  eslint-plugin-jsx-a11y
-```
-
-```json
-{
-  "extends": ["eslint-config-improve-code/typescript/react", "eslint-config-improve-code/jsx-a11y"]
-}
-```
-
 ## TypeScript + Vue 项目 - eslint-config-improve-code/typescript/vue
 
 针对 `TS Vue` 项目，继承了 `JS Vue` 的配置，并启用了 [@typescript-eslint/eslint-plugin](https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin) 插件的规则，使用 [@typescript-eslint/parser](https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/parser) 作为 `parser`。

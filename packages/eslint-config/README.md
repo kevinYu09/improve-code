@@ -55,18 +55,6 @@ npm i -D eslint-config-improve-code @babel/core @babel/eslint-parser eslint-plug
 }
 ```
 
-如果需要无障碍能力：
-
-```shell
-npm i -D eslint-plugin-jsx-a11y
-```
-
-```json
-{
-  "extends": ["eslint-config-improve-code/react", "eslint-config-improve-code/jsx-a11y"]
-}
-```
-
 ## JavaScript + Vue 项目 - eslint-config-improve-code/vue
 
 针对 `JS Vue` 的项目，继承了默认配置，并启用了 [eslint-plugin-vue](https://www.npmjs.com/package/eslint-plugin-vue) 插件的规则，使用 [vue-eslint-parser](https://www.npmjs.com/package/vue-eslint-parser) 作为 parser。

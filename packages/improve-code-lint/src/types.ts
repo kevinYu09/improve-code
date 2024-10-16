@@ -48,7 +48,7 @@ export interface Config {
     stylelintOptions?: stylelint.LinterOptions;
     // markdownlint 配置项
     markdownlintOptions?: markdownlint.Options;
-  }
+}
 
 export interface ScanOptions {
     // lint 运行的工程目录
@@ -67,7 +67,7 @@ export interface ScanOptions {
     outputReport?: boolean;
     // scan 时指定 improve-code-lint config，优先级高于 improve-code-lint.config.js
     config?: Config;
-  }
+}
   
 export interface ScanResult {
     filePath: string;
@@ -83,11 +83,11 @@ export interface ScanResult {
       message: string;
       errored: boolean;
     }>;
-  }
+}
   
 export interface ScanReport {
     results: ScanResult[];
     errorCount: number;
     warningCount: number;
     runErrors: Error[];
-  }
+}
