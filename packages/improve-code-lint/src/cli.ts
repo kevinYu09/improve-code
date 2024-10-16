@@ -44,7 +44,7 @@ program
 
 // 自定义脚手架 `init` 指令
 program
-    .commander('init')
+    .command('init')
     .description('一键接入：为项目初始化规范工具和配置，可以根据项目类型和需求进行定制')
     .option('--vscode','写入.vscode/setting.json配置')
     .action(async (cmd)=>{
